@@ -1,0 +1,42 @@
+Assignment 1
+
+Create a exact clone of this api in nodeExpress 
+
+http://staging-api.dahmakan.com/test/orders
+
+If you hit this API sometimes it gives 503 error
+
+
+OrderId 
+   min 1000 max 99999
+
+
+Univeral Time cordinated
+
+arrives_at_utc
+   min   7days before current time 
+   max   7days after current time
+
+“paid_with”:
+      1. Cash
+       2. Wallet
+“total_paid”:
+      min : 10.00
+      max:  99.00
+
+
+How many orders to generate in one request?
+1. Min Order - 0
+2. Max ORder - 20
+
+Math.random()*20
+min = 0
+max = Math.ceil(19.9999) - 20.
+
+
+
+
+
+In order to perfectly work on date and times you must have full understanding of
+https://www.w3schools.com/jS/js_dates.asp
+this sections
