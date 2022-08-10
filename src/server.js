@@ -5,7 +5,7 @@ const { testRoute } = require('./routes/test/testRoute');
 env.config();
 
 
-app.use(testRoute)
+app.use('/test',testRoute)
 
 
 

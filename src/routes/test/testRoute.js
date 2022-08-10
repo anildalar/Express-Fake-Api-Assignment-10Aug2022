@@ -7,7 +7,7 @@ const testRoute = express.Router();
 
 // JS HOF
 
-testRoute.get('/test/orders',testController);
+testRoute.get('/orders',testController);
 
 exports.testRoute = testRoute
 

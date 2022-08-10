@@ -20,6 +20,11 @@ arrives_at_utc
 “paid_with”:
       1. Cash
        2. Wallet
+
+
+	console.log(  Math.random() < 0.5 "Cash":"Wallet")
+
+
 “total_paid”:
       min : 10.00
       max:  99.00
